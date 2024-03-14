@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 1rem auto;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: auto;
+}
+
+.card-in {
+  width: 400px;
+  height: 650px;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  background-color: white;
+  padding: 1rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.card-header img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+}
+.card-header .card-info h2 {
+  color: #ff5a5a;
+  font-family: Prompt;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-align: left;
+  height: 20px;
+}
+.card-header .card-info h3 {
+  color: #9b9b9b;
+  font-family: Prompt;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  height: 40px;
+}
+.card-header .card-info h4 {
+  color: #9b9b9b;
+  font-family: Prompt;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  height: 20px;
+}
+.card-header .heart {
+  width: 24px;
+  height: 21px;
+  object-fit: contain;
+}
+
+.card-open {
+  display: flex;
+  align-items: center;
+}
+.card-flex {
+  display: flex;
+}
+.card-flex h4 {
+  margin-right: 0.4rem;
+  display: flex;
+  height: 10px;
+  width: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 100%;
+  font-family: Prompt;
+  font-size: 18.4px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #d8d8d8;
+}
+.card-flex .green {
+  background: #2ecc71;
+}
+
+.card-open h3 {
+  margin-right: 1rem;
+  font-family: Prompt;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.01;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5f5f5f;
+}
+
+.card-state {
+  display: flex;
+  justify-content: space-between;
+}
+.card-state h3 {
+  color: #ff5a5a;
+  font-family: Prompt;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+}
+.card-state h4 {
+  color: #ff5a5a;
+  font-family: Prompt;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.card-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.score-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score-card h4 {
+  font-size: 19.6px;
+}
+.score-card h4 {
+  font-family: Prompt;
+  font-size: 11.2px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5f5f5f;
+}
+
+.card-ratio {
+  font-family: Prompt;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #48b6a3;
+}
+.card-interest {
+  font-family: Prompt;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9b9b9b;
+}
+.card-your-score {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
